@@ -22,3 +22,10 @@ end
 books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
 books.sort!
 result = ["A Brief History of Time", "A Wrinkle in Time", "Charlie and the Chocolate Factory", "Utopia", "War and Peace"] #Sorts words alphabetically
+
+#Combined Comparison
+book_1 = "A Wrinkle in Time"
+book_2 = "A Brief History of Time"
+
+book_1 <=> book_2
+
