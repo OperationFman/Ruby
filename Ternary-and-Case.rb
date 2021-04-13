@@ -15,4 +15,5 @@ case greeting
   else puts "I don’t know that language!"
 end
 
-#Conditional Assignment
+#Assign var if not aleady assigned
+favorite_language ||= "Python"
